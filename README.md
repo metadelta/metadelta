@@ -1,8 +1,8 @@
+[![NPM](https://nodei.co/npm/newton-lib.png)](https://npmjs.org/package/newton-lib)
+
 # newton-lib-js
 ## A small library for advanced math.
 By Gerald Nash
-
-[![NPM](https://nodei.co/npm/newton-lib.png)](https://npmjs.org/package/newton-lib)
 
 #### LIBRARY
 ______________________________________________
@@ -89,3 +89,7 @@ returns
 Argument(s): 1. a string representation of the function under which the area is to be found 2. an object with properties *start* and *finish* representing the x values between which the area will be found under the function
 
 Return: A number representation of the area under the given function between the two x values
+______________________________________________
+Copyright (c) 2017 Gerald Nash.
+Built using Algebrite and Mathjs
+Licensed under the MIT license.
