@@ -4,7 +4,7 @@
   "description": "A small library for advanced math.",
   "main": "newton.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
   "dependencies": {
     "algebrite": "^0.2.23",
     "mathjs": "^3.8.1"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2"
   }
 }
