@@ -1,0 +1,32 @@
+{
+  "name": "newton-lib",
+  "version": "1.0.0",
+  "description": "A small library for advanced math.",
+  "main": "newton.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aunyks/newton-lib.git"
+  },
+  "keywords": [
+    "newton",
+    "calculus",
+    "math",
+    "algebra",
+    "linear",
+    "matrix",
+    "regression"
+  ],
+  "author": "Gerald Nash <g.nash.dev@gmail.com> (aunyks.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aunyks/newton-lib/issues"
+  },
+  "homepage": "https://github.com/aunyks/newton-lib#readme",
+  "dependencies": {
+    "algebrite": "^0.2.23",
+    "mathjs": "^3.8.1"
+  }
+}
