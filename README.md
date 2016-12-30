@@ -2,6 +2,8 @@
 ## A small library for advanced math.
 By Gerald Nash
 
+[![NPM](https://nodei.co/npm/newton-lib.png)](https://npmjs.org/package/newton-lib)
+
 #### LIBRARY
 ______________________________________________
 **newton.simplify**
