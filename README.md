@@ -2,6 +2,7 @@
 
 # metadelta-js
 ## A small library for advanced math.
+[![metadelta](http://aunyks.com/metadelta/assets/metadelta-logo-transparent.png)](https://aunyks.com/metadelta)
 By Gerald Nash
 
 #### LIBRARY
