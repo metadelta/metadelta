@@ -6,8 +6,8 @@
 [![metadelta](http://aunyks.com/metadelta/assets/metadelta-logo-transparent.png)](https://aunyks.com/metadelta)
 
 # metadelta-js
-## A small library for advanced math.
-**By Gerald Nash**
+**A small library for advanced math.**
+*By Gerald Nash*
 
 #### LIBRARY
 ______________________________________________
