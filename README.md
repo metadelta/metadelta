@@ -1,5 +1,7 @@
+[![Build Status](https://travis-ci.org/aunyks/metadelta-js.svg?branch=master)](https://travis-ci.org/aunyks/metadelta-js)
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![NPM](https://nodei.co/npm/metadelta.png)](https://npmjs.org/package/metadelta)
-
 # metadelta-js
 ## A small library for advanced math.
 [![metadelta](http://aunyks.com/metadelta/assets/metadelta-logo-transparent.png)](https://aunyks.com/metadelta)
