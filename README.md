@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/aunyks/metadelta-js.svg?branch=master)](https://travis-ci.org/aunyks/metadelta-js)
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![NPM](https://nodei.co/npm/metadelta.png)](https://npmjs.org/package/metadelta)
 
 [![Metadelta Logo](http://aunyks.com/metadelta/assets/metadelta-logo-transparent.png)](https://aunyks.com/metadelta)
@@ -8,7 +5,9 @@
 # metadelta-js
 **A small library for advanced math.**
 *by Gerald Nash*
-
+[![Build Status](https://travis-ci.org/aunyks/metadelta-js.svg?branch=master)](https://travis-ci.org/aunyks/metadelta-js)
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 ### What is it?
 Metadelta is an intuitive library that makes performing advanced mathematical operations much simpler. It can be used in anything from factoring a polynomial expression to calculating the area under a curve.
 
