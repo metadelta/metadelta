@@ -16,7 +16,7 @@ function assert(expected, received, name){
 // TODO: give functions more than one test case at a time
 assert('2 x',      metadelta.simplify('x+x'),  'Simplify');
 assert('(x - 1) (x + 1)', metadelta.factor('x^2-1'), 'Factor');
-assert([1, -1],    metadelta.zeroes('x^2-1'),  'Zeroes');
+assert([-1, 1],    metadelta.zeroes('x^2-1'),  'Zeroes');
 assert('2 x',      metadelta.derive('x^2'),    'Derivative');
 assert('1/3 x^3',  metadelta.integrate('x^2'), 'Integral');
 assert('2 x + -1', metadelta.tangent('x^2', 1),'Tangent');
