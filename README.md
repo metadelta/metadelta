@@ -1,5 +1,3 @@
-[![NPM](https://nodei.co/npm/metadelta.png)](https://npmjs.org/package/metadelta)
-
 [![Metadelta Logo](http://aunyks.com/metadelta/assets/metadelta-logo-transparent.png)](https://aunyks.com/metadelta)
 
 # metadelta-js
