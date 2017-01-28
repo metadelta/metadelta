@@ -2,10 +2,12 @@
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![NPM](https://nodei.co/npm/metadelta.png)](https://npmjs.org/package/metadelta)
+
+[![metadelta](http://aunyks.com/metadelta/assets/metadelta-logo-transparent.png)](https://aunyks.com/metadelta)
+
 # metadelta-js
 ## A small library for advanced math.
-[![metadelta](http://aunyks.com/metadelta/assets/metadelta-logo-transparent.png)](https://aunyks.com/metadelta)
-By Gerald Nash
+**By Gerald Nash**
 
 #### LIBRARY
 ______________________________________________
