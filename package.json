@@ -1,6 +1,6 @@
 {
   "name": "metadelta",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "A small library for advanced math.",
   "main": "metadelta.js",
   "scripts": {
