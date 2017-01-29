@@ -5,6 +5,7 @@
   Copyright (C) Gerald Nash 2016-2017
 */
 var algebrite = require('algebrite');
+var mathsteps = require('mathsteps');
 
 module.exports.simplify = algebrite.run;
 
@@ -30,4 +31,11 @@ module.exports.zeroes = function(oExpression){
   });
 
   return rootsArr;
+};
+
+module.exports.solve = function(oExpression){
+  var steps = mathsteps.solveEquation(oExpression);
+
+  // We don't need each step; the final step will be our answer
+  return (steps[steps.length - 1]).newEquation.print();
 };

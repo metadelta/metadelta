@@ -1,3 +1,9 @@
+/*
+  This is the file containing all of the calculus
+  functionality of metadelta.
+
+  Copyright (C) Gerald Nash 2016-2017
+*/
 var algebrite = require('algebrite');
 var algebra   = require('./algebra.js');
 
@@ -16,7 +22,7 @@ module.exports.tangent = function(expression, at){
 };
 
 module.exports.integrate = function(expression){
-  return algebrite.integral(expression).toString(); // + C?
+  return algebrite.integral(expression).toString();
 };
 
 module.exports.areaUnder = function(expression, data){
