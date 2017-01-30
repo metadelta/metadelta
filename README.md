@@ -22,5 +22,5 @@ That's it! Now you can begin implementing Metadelta's powerful functionality in 
 Oh, Metadelta's documentation can be found [here](https://github.com/aunyks/metadelta-js/blob/master/DOCS.md).
 ______________________________________________
 Copyright (c) 2016-2017 Gerald Nash.
-Built using Algebrite and Mathjs
+Built using Algebrite and Mathsteps
 Licensed under the MIT license.
