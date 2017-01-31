@@ -1,6 +1,6 @@
 {
   "name": "metadelta",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A small library for advanced math.",
   "main": "metadelta.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/aunyks/metadelta-js#readme",
   "dependencies": {
     "algebrite": "^0.2.23",
-    "mathsteps": "^0.1.4"
+    "mathsteps": "github:aunyks/mathsteps"
   },
   "devDependencies": {
     "colors": "^1.1.2"
