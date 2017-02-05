@@ -23,4 +23,6 @@ Oh, Metadelta's documentation can be found [here](https://github.com/aunyks/meta
 ______________________________________________
 Copyright (c) 2016-2017 Gerald Nash.
 Built using Algebrite and Mathsteps
-Licensed under the MIT license.
+Licensed under the MIT license.  
+
+Like metadelta? [Donate Bitcoin](https://coinbase.com/aunyks) to support development!
