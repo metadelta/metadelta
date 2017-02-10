@@ -27,7 +27,7 @@
   "homepage": "https://github.com/aunyks/metadelta-js#readme",
   "dependencies": {
     "algebrite": "^0.2.23",
-    "mathsteps": "github:aunyks/mathsteps"
+    "mathsteps": "github:aunyks/metadelta-solver"
   },
   "devDependencies": {
     "colors": "^1.1.2"
