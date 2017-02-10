@@ -5,7 +5,7 @@
   Copyright (C) Gerald Nash 2016-2017
 */
 var algebrite = require('algebrite');
-var mathsteps = require('mathsteps');
+var mathsteps = require('delta-solver');
 
 module.exports.simplify = algebrite.run;
 

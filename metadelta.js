@@ -20,5 +20,5 @@ module.exports.solve     = algebra.solve;
 /* CALCULUS */
 module.exports.derive    = calculus.derive;
 module.exports.tangent   = calculus.tangent;
-module.exports.integrate = calculus.integrate;// indefinite integral
-module.exports.areaUnder = calculus.areaUnder;// definite integral
+module.exports.integrate = calculus.integrate; // indefinite integral
+module.exports.areaUnder = calculus.areaUnder; // definite integral
