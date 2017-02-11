@@ -4,19 +4,25 @@
 
   Copyright (C) Gerald Nash 2016-2017
 */
+
 var algebrite = require('algebrite');
 
-// TODO: Adequately document this function's use
-function convertString(f){
+// Each of algebrite's arithmetic functions
+// only returns clean output after calling toString
+// on it. convertToString() allows us to "rewrite" 
+// these functions by creating a function wrapper
+// that passes the actual argument to the arithmetic function
+// and immediately get the string output
+function convertToString(f){
   return function(x){
     return f(x).toString();
   }
 }
 
-module.exports.abs       = convertString(algebrite.abs);
-module.exports.sin       = convertString(algebrite.sin);
-module.exports.cos       = convertString(algebrite.cos);
-module.exports.tan       = convertString(algebrite.tan);
-module.exports.arccos    = convertString(algebrite.arccos);
-module.exports.arcsin    = convertString(algebrite.arcsin);
-module.exports.arctan    = convertString(algebrite.arctan);
+module.exports.abs       = convertToString(algebrite.abs);
+module.exports.sin       = convertToString(algebrite.sin);
+module.exports.cos       = convertToString(algebrite.cos);
+module.exports.tan       = convertToString(algebrite.tan);
+module.exports.arccos    = convertToString(algebrite.arccos);
+module.exports.arcsin    = convertToString(algebrite.arcsin);
+module.exports.arctan    = convertToString(algebrite.arctan);
