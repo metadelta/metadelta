@@ -22,7 +22,7 @@ That's it! Now you can begin implementing Metadelta's powerful functionality in 
 Oh, Metadelta's documentation can be found [here](https://github.com/aunyks/metadelta-js/blob/master/DOCS.md).
 ______________________________________________
 Copyright (c) 2016-2017 Gerald Nash.
-Built using Algebrite and Mathsteps
+Built using Algebrite and [metadelta-solver](https://github.com/aunyks/metadelta-solver)
 Licensed under the MIT license.  
 
 Like metadelta? [Donate Bitcoin](https://coinbase.com/aunyks) to support development!
