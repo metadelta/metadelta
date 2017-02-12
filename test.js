@@ -25,6 +25,7 @@ assert('1',      metadelta.tan('pi/4'),    'Tangent');
 assert('0',      metadelta.arccos(1),      'Inverse Cosine');
 assert('1/2 pi', metadelta.arcsin(1),      'Inverse Sine');
 assert('1/4 pi', metadelta.arctan(1),      'Inverse Tangent');
+assert('3',      metadelta.log(2, 8),      'Logarithm');
 console.log();
 
 /*

@@ -26,3 +26,8 @@ module.exports.tan       = convertToString(algebrite.tan);
 module.exports.arccos    = convertToString(algebrite.arccos);
 module.exports.arcsin    = convertToString(algebrite.arcsin);
 module.exports.arctan    = convertToString(algebrite.arctan);
+
+// log_b(a) = log(a) / log(b), so:
+module.exports.log = function(base, argument){
+  return '' + Math.log(parseInt(argument)) / Math.log(parseInt(base));
+};

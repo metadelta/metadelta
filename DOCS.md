@@ -14,6 +14,18 @@ Argument(s): a string or number representation of the value of which the absolut
 
 Return: A string of the absolute value of the given value  
 
+**metadelta.log**
+
+*Find the logarithm at a base with an argument*
+```
+metadelta.log('2', '8') // or metadelta.log(2, 8)
+returns
+'3'
+```
+Argument(s): a string or number representation of the base of the logarithm and a string or number representation of the argument of the logarithm
+
+Return: A string representation of the evaluate logarithm
+
 **metadelta.sin**
 
 *Find the sine of a value*

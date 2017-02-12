@@ -4,6 +4,7 @@ var calculus     = require('./src/calculus.js');
 
 /* ARITHMETIC */
 module.exports.abs       = arithmetic.abs;
+module.exports.log       = arithmetic.log;
 module.exports.sin       = arithmetic.sin;
 module.exports.cos       = arithmetic.cos;
 module.exports.tan       = arithmetic.tan;
