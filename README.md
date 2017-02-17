@@ -3,7 +3,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)  
 [![Metadelta Logo](http://aunyks.com/metadelta/assets/metadelta-logo-transparent.png)](https://aunyks.com/metadelta)
 
-# metadelta-js
+# metadelta-core
 **A small library for advanced math.**  
 ### What is it?
 Metadelta is an intuitive library that makes performing advanced mathematical operations much simpler. It can be used in anything from factoring a polynomial expression to calculating the area under a curve.
@@ -22,7 +22,7 @@ That's it! Now you can begin implementing Metadelta's powerful functionality in 
 Oh, Metadelta's documentation can be found [here](https://github.com/aunyks/metadelta-js/blob/master/DOCS.md).
 ______________________________________________
 Copyright (c) 2016-2017 Gerald Nash.
-Built using Algebrite and [metadelta-solver](https://github.com/aunyks/metadelta-solver)
+Built using Algebrite and [metadelta-solver](https://github.com/metadelta/metadelta-solver)
 Licensed under the MIT license.  
 
 Like metadelta? [Donate Bitcoin](https://coinbase.com/aunyks) to support development!
