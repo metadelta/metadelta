@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/aunyks/metadelta-js.svg?branch=master)](https://travis-ci.org/aunyks/metadelta-js)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)  
-[![Metadelta Logo](http://aunyks.com/metadelta/assets/metadelta-logo-transparent.png)](https://aunyks.com/metadelta)
+[![Metadelta Logo](http://metadelta.pw/assets/metadelta-logo-transparent.png)](http://metadelta.pw/)
 
 # metadelta-core
 **A small library for advanced math.**  
@@ -19,7 +19,7 @@ npm install --save metadelta
 That's it! Now you can begin implementing Metadelta's powerful functionality in your project.
 
 ### No, where are the docs?
-Oh, Metadelta's documentation can be found [here](https://github.com/aunyks/metadelta-js/blob/master/DOCS.md).
+Oh, Metadelta's documentation can be found [here](https://github.com/metadelta/metadelta-core/blob/master/DOCS.md).
 ______________________________________________
 Copyright (c) 2016-2017 Gerald Nash.
 Built using Algebrite and [metadelta-solver](https://github.com/metadelta/metadelta-solver)
