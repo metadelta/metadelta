@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aunyks/metadelta-js.git"
+    "url": "git+https://github.com/metadelta/metadelta-core.git"
   },
   "keywords": [
     "newton",
@@ -22,12 +22,12 @@
   "author": "Gerald Nash <g.nash.dev@gmail.com> (aunyks.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aunyks/metadelta-js/issues"
+    "url": "https://github.com/metadelta/metadelta-core/issues"
   },
-  "homepage": "https://github.com/aunyks/metadelta-js#readme",
+  "homepage": "https://github.com/metadelta/metadelta-core#readme",
   "dependencies": {
     "algebrite"    : "^0.2.23",
-    "delta-solver" : "github:aunyks/metadelta-solver"
+    "delta-solver" : "github:metadelta/metadelta-solver"
   },
   "devDependencies": {
     "colors": "^1.1.2"
