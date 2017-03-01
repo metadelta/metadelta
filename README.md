@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/aunyks/metadelta-js.svg?branch=master)](https://travis-ci.org/aunyks/metadelta-js)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)  
-[![Metadelta Logo](http://metadelta.pw/assets/metadelta-logo-transparent.png)](http://www.metadelta.pw/)
+[![Metadelta Logo](http://www.metadelta.pw/assets/metadelta-logo-transparent.png)](http://www.metadelta.pw/)
 
 # metadelta-core
 **A small library for advanced math.**  
