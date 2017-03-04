@@ -44,5 +44,5 @@ console.log();
 assert('2 x',      metadelta.derive('x^2'),    'Derivative');
 assert('1/3 x^3',  metadelta.integrate('x^2'), 'Integral');
 assert('2 x + -1', metadelta.tangent('x^2', 1),'Tangent');
-assert('8',        metadelta.areaUnder('x^2', {start: 1, finish: 3}), 'Area Under Curve');
+assert(8,        metadelta.areaUnder('x^2', {start: 1, finish: 3}), 'Area Under Curve');
 console.log();

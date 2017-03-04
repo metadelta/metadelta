@@ -28,10 +28,10 @@ module.exports.derive = function(expression){
 // See below for implementation 
 module.exports.tangent = function(expression, at){
     // f(x) - xf'(x) = b
-    var fx = parseInt(algebrite.run(expression.split('x').join(''+at)));
+    var fx = algebra.plug(expression, { symbol: 'x', val: at });
     var fp = module.exports.derive(expression);
-    var fpx = algebrite.run(fp.split('x').join(''+at));
-    var b = fx - at * parseInt(fpx);
+    var fpx = algebra.plug(fp, { symbol: 'x', val: at });
+    var b = fx - at * fpx;
 
     return fpx + ' x + ' + b;
 };
@@ -56,8 +56,8 @@ module.exports.areaUnder = function(expression, data){
   var a = data.start;
   var b   = data.finish;
   var F = module.exports.integrate(expression);
-  var Fofa = parseInt(algebrite.simplify(F.split('x').join(''+a)));
-  var Fofb = parseInt(algebrite.simplify(F.split('x').join(''+b)));
+  var Fofa = parseInt(algebra.plug(F, { symbol: 'x', val: a}));
+  var Fofb = algebra.plug(F, { symbol: 'x', val: b});
 
-  return ''+(Fofb - Fofa);
+  return Fofb - Fofa;
 };

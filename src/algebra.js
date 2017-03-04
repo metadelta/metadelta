@@ -65,5 +65,5 @@ module.exports.plug = function(oExpression, obj){
   var symbol = obj.symbol;
   var value  = '' + obj.val;
 
-  return module.exports.simplify(oExpression.replace(symbol, value));
+  return module.exports.simplify(oExpression.split(symbol).join(value));
 };
