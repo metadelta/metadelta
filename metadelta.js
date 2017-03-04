@@ -17,6 +17,7 @@ module.exports.simplify  = algebra.simplify;
 module.exports.factor    = algebra.factor;
 module.exports.zeroes    = algebra.zeroes;
 module.exports.solve     = algebra.solve;
+module.exports.plug      = algebra.plug;
 
 /* CALCULUS */
 module.exports.derive    = calculus.derive;

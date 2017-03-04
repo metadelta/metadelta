@@ -148,6 +148,20 @@ Argument(s): a string representation of the expression to be solved
 
 Return: A string of the value that the variable equals (see example above)  
 
+**metadelta.plug**
+
+*Plug in an input value into an expression and compute the output*
+```
+metadelta.plug('x^2 + 1', { symbol: 'x', val: 2 })
+returns
+'5'
+```
+Argument(s): a string of the expression of which the value will be computed. an object containing the string representation of the symbol to be evaluated and a number representation of the input value
+
+Return: The resulting output value 
+
+
+
 ## Calculus Functions
 
 **metadelta.derive**

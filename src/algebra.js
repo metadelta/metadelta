@@ -59,3 +59,11 @@ module.exports.solve = function(oExpression){
   // And return the string version of this resulting equation
   return finalEquation.print();
 };
+
+// Plug a numerical value in for a symbol and compute the resulting expression
+module.exports.plug = function(oExpression, obj){
+  var symbol = obj.symbol;
+  var value  = '' + obj.val;
+
+  return module.exports.simplify(oExpression.replace(symbol, value));
+};

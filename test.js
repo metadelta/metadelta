@@ -35,6 +35,7 @@ assert('2 x',             metadelta.simplify('x+x'),  'Simplify');
 assert('(x - 1) (x + 1)', metadelta.factor('x^2-1'),  'Factor');
 assert([-1, 1],           metadelta.zeroes('x^2-1'),  'Zeroes');
 assert('x = 5',           metadelta.solve('35 = 7x'), 'Solve');
+assert('4',               metadelta.plug('x^2', { symbol: 'x', val: 2 }), 'Plug Value');
 console.log();
 
 /*
