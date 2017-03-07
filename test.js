@@ -46,3 +46,9 @@ assert('1/3 x^3',  metadelta.integrate('x^2'), 'Integral');
 assert('2 x + -1', metadelta.tangent('x^2', 1),'Tangent');
 assert(8,        metadelta.areaUnder('x^2', {start: 1, finish: 3}), 'Area Under Curve');
 console.log();
+
+/*
+ STATISTICS FUNCTIONS
+*/
+var testArr = [1, 2, 3, 4, 5, 6];
+assert();

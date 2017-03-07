@@ -1,6 +1,7 @@
 var arithmetic   = require('./src/arithmetic.js');
 var algebra      = require('./src/algebra.js');
 var calculus     = require('./src/calculus.js');
+var statistics   = require('./src/statistics.js');
 
 /* ARITHMETIC */
 module.exports.abs       = arithmetic.abs;
@@ -24,3 +25,9 @@ module.exports.derive    = calculus.derive;
 module.exports.tangent   = calculus.tangent;
 module.exports.integrate = calculus.integrate; // indefinite integral
 module.exports.areaUnder = calculus.areaUnder; // definite integral
+
+/* STATISTICS */
+module.exports.bigSig = statistics.bigSig;
+module.exports.max    = statistics.max;
+module.exports.min    = statistics.min;
+module.exports.mean   = statistics.mean;
