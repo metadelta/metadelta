@@ -5,7 +5,9 @@
   "main": "metadelta.js",
   "scripts": {
     "test": "node ./tests/test.js",
-    "build-web": "browserify metadelta.js -o ./dist/delta.js"
+    "build-web": "browserify metadelta.js -o ./dist/delta.js",
+    "deploy-web": "npm run build-web && surge ./dist",
+    "deploy": "npm publish && npm run deploy-web"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,7 @@
   },
   "devDependencies": {
     "browserify": "^14.1.0",
-    "colors": "^1.1.2"
+    "colors": "^1.1.2",
+    "surge": "^0.18.0"
   }
 }

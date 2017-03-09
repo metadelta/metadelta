@@ -12,9 +12,15 @@ Metadelta is an intuitive library that makes performing advanced mathematical op
 Doing advanced math with Javascript takes an exceptional amount of time and knowledge that could be used to do so many other things (like building the next big thing). Metadelta removes the worry for a powerful math library by abstracting various mathematical concepts and operations to make developers' lives easier.
 
 ### How do I get started?
-To add Metadelta to your project, simply run the following line in your project's root directory.
+To add Metadelta to your Node.js project, simply run the following line in your project's root directory.
 ```
 npm install --save metadelta
+```
+
+To add Metadelta to your web app / project, add the following script tag to your source.  
+You can call Metadelta's functions from the global *metadelta* object.
+```
+<script src="https://mdlt.surge.sh/delta.js"></script>
 ```
 That's it! Now you can begin implementing Metadelta's powerful functionality in your project.
 
