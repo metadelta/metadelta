@@ -211,3 +211,5 @@ returns
 Argument(s): 1. a string representation of the function under which the area is to be found 2. an object with properties *start* and *finish* representing the x values between which the area will be found under the function
 
 Return: A number representation of the area under the given function between the two x values  
+
+## Statistics Functions

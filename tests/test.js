@@ -1,4 +1,4 @@
-var metadelta = require('./metadelta.js');
+var metadelta = require('../metadelta.js');
 var colors    = require('colors');
 
 function assert(expected, received, name){

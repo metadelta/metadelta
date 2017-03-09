@@ -4,7 +4,8 @@
   "description": "A small library for advanced math.",
   "main": "metadelta.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node ./tests/test.js",
+    "build-web": "browserify metadelta.js -o ./dist/delta.js"
   },
   "repository": {
     "type": "git",
@@ -26,10 +27,11 @@
   },
   "homepage": "https://github.com/metadelta/metadelta-core#readme",
   "dependencies": {
-    "algebrite"    : "^0.2.23",
-    "delta-solver" : "github:metadelta/metadelta-solver"
+    "algebrite": "^0.2.23",
+    "delta-solver": "github:metadelta/metadelta-solver"
   },
   "devDependencies": {
+    "browserify": "^14.1.0",
     "colors": "^1.1.2"
   }
 }
