@@ -7,7 +7,8 @@
     "test": "node ./tests/test.js",
     "build-web": "browserify metadelta.js -o ./dist/delta.js",
     "deploy-web": "npm run build-web && surge ./dist",
-    "deploy": "npm publish && npm run deploy-web"
+    "deploy": "npm publish && npm run deploy-web",
+    "test-build-web": "browserify metadelta.js | uglifyjs > ./dist/delta.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
   "devDependencies": {
     "browserify": "^14.1.0",
     "colors": "^1.1.2",
-    "surge": "^0.18.0"
+    "surge": "^0.18.0",
+    "uglifyjs": "^2.4.10"
   }
 }

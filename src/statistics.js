@@ -36,6 +36,16 @@ module.exports.median = function(arr){
 
 };
 
+// TODO: Finish this
 module.exports.mode = function(arr){
-
+  arr.reduce(function(a, b){
+    var testVal = a;
+    var counter = 0;
+    if(a === testVal){
+      counter++; 
+    }else{
+      counter = 0;
+      testVal = a;
+    }
+  });
 };

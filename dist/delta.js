@@ -24122,10 +24122,10 @@ const ChangeTypes        = require('./lib/ChangeTypes');
 var mathjs               = require('mathjs');
 
 module.exports = {
-  simplifyExpression,
-  solveEquation,
-  ChangeTypes,
-  mathjs
+  simplifyExpression: simplifyExpression,
+  solveEquation: solveEquation,
+  ChangeTypes: ChangeTypes,
+  mathjs: mathjs
 };
 
 },{"./lib/ChangeTypes":7,"./lib/simplifyExpression":57,"./lib/solveEquation":61,"mathjs":70}],7:[function(require,module,exports){
