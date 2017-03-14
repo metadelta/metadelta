@@ -8,7 +8,8 @@
     "build-web": "browserify metadelta.js -o ./dist/delta.js",
     "deploy-web": "npm run build-web && surge ./dist",
     "deploy": "npm publish && npm run deploy-web",
-    "test-build-web": "browserify metadelta.js | uglifyjs > ./dist/delta.js"
+    "test-build-web": "browserify metadelta.js | uglifyjs > ./dist/delta.js",
+    "produce": "npm run build-web && npm run deploy-web && git add --all && git commit -m \".\" && git push origin master"
   },
   "repository": {
     "type": "git",
