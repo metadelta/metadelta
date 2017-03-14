@@ -31,5 +31,7 @@ module.exports.bigSig = statistics.bigSig;
 module.exports.max    = statistics.max;
 module.exports.min    = statistics.min;
 module.exports.mean   = statistics.mean;
+module.exports.median = statistics.median;
+module.exports.mode   = statistics.mode;
 
 global.metadelta = module.exports;

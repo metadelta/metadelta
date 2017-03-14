@@ -51,8 +51,10 @@ console.log();
  STATISTICS FUNCTIONS
 */
 var testArr = [1, 2, 3, 4, 5, 6];
-assert(21, metadelta.bigSig(testArr), 'Big Sigma');
-assert(6,  metadelta.max(testArr),    'Maximum Value');
-assert(1,  metadelta.min(testArr),    'Minimum Value');
-assert(3.5, metadelta.mean(testArr), 'Mean');
+assert(21,  metadelta.bigSig(testArr), 'Big Sigma');
+assert(6,   metadelta.max(testArr),    'Maximum Value');
+assert(1,   metadelta.min(testArr),    'Minimum Value');
+assert(3.5, metadelta.mean(testArr),   'Mean');
+assert(3.5, metadelta.median(testArr), 'Median');
+assert(1,   metadelta.mode(testArr),   'Mode');
 console.log();
