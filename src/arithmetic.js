@@ -26,6 +26,10 @@ module.exports.tan       = convertToString(algebrite.tan);
 module.exports.arccos    = convertToString(algebrite.arccos);
 module.exports.arcsin    = convertToString(algebrite.arcsin);
 module.exports.arctan    = convertToString(algebrite.arctan);
+module.exports.exp       = Math.exp;
+module.exports.random    = function(min, max){
+  return Math.floor(Math.random() * (max - min) + min);
+};
 
 // log_b(a) = log(a) / log(b), so:
 module.exports.log = function(base, argument){
