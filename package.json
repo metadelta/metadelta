@@ -1,6 +1,6 @@
 {
-  "name": "metadelta",
-  "version": "1.0.8",
+  "name": "@metadelta/core",
+  "version": "1.1.0",
   "description": "A small library for advanced math.",
   "main": "metadelta.js",
   "scripts": {
@@ -8,12 +8,11 @@
     "build-web": "browserify metadelta.js -o ./dist/delta.js",
     "deploy-web": "npm run build-web && surge ./dist",
     "deploy": "npm publish && npm run deploy-web",
-    "test-build-web": "browserify metadelta.js | uglifyjs > ./dist/delta.js",
-    "produce": "npm run build-web && npm run deploy-web && git add --all && git commit -m \".\" && git push origin master"
+    "test-build-web": "browserify metadelta.js | uglifyjs > ./dist/delta.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metadelta/metadelta-core.git"
+    "url": "git+https://github.com/metadelta/metadelta.git"
   },
   "keywords": [
     "newton",
@@ -27,17 +26,18 @@
   "author": "Gerald Nash <g.nash.dev@gmail.com> (aunyks.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/metadelta/metadelta-core/issues"
+    "url": "https://github.com/metadelta/metadelta/issues"
   },
-  "homepage": "https://github.com/metadelta/metadelta-core#readme",
+  "homepage": "https://github.com/metadelta/metadelta#readme",
   "dependencies": {
     "algebrite": "^0.2.23",
-    "delta-solver": "github:metadelta/metadelta-solver"
+    "@metadelta/solver": "^1.0.0"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
     "colors": "^1.1.2",
     "surge": "^0.18.0",
-    "uglifyjs": "^2.4.10"
+    "uglifyjs": "^2.4.10",
+    "lerna": "2.0.0-beta.38"
   }
 }

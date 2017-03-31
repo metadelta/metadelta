@@ -6,7 +6,7 @@
 */
 
 var algebrite = require('algebrite');
-var solver    = require('delta-solver');
+var solver    = require('@metadelta/solver');
 
 // Export simplify function as is
 module.exports.simplify = algebrite.run;
