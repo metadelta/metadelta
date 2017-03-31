@@ -1,6 +1,6 @@
 {
   "name": "@metadelta/solver",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Step-by-step equation solving for metadelta",
   "main": "index.js",
   "dependencies": {
