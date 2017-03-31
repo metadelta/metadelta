@@ -1,0 +1,33 @@
+{
+  "name": "@metadelta/solver",
+  "version": "1.0.0",
+  "description": "Step-by-step equation solving for metadelta",
+  "main": "index.js",
+  "dependencies": {
+    "mathjs": "3.8.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "math",
+    "steps",
+    "algebra",
+    "cas",
+    "computer",
+    "algebra",
+    "system",
+    "metadelta",
+    "solver",
+    "solver"
+  ],
+  "author": "Gerald Nash",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/metadelta/metadelta/issues"
+  },
+  "homepage": "https://github.com/metadelta/metadelta-solver#readme"
+}
