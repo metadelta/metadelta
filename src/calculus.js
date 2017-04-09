@@ -54,10 +54,10 @@ module.exports.integrate = function(expression){
 // then the area under the curve in this interval is F(b) - F(a)
 module.exports.areaUnder = function(expression, data){
   var a = data.start;
-  var b   = data.finish;
+  var b = data.finish;
   var F = module.exports.integrate(expression);
-  var Fofa = parseInt(algebra.plug(F, { symbol: 'x', val: a}));
-  var Fofb = algebra.plug(F, { symbol: 'x', val: b});
+  var Fofa = parseFloat(algebra.plug(F, { symbol: 'x', val: a}));
+  var Fofb = parseFloat(algebra.plug(F, { symbol: 'x', val: b}));
 
   return Fofb - Fofa;
 };

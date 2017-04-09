@@ -35,7 +35,7 @@ module.exports.zeroes = function(oExpression){
 
   // ["1", "-1"] -> [1, -1]
   var rootsArr = rootStrs.map(function(rootStr){
-    return parseInt(rootStr);
+    return parseFloat(rootStr);
   });
 
   return rootsArr;

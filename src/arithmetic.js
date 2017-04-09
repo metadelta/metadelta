@@ -33,5 +33,5 @@ module.exports.random    = function(min, max){
 
 // log_b(a) = log(a) / log(b), so:
 module.exports.log = function(base, argument){
-  return '' + Math.log(parseInt(argument)) / Math.log(parseInt(base));
+  return '' + Math.log(parseFloat(argument)) / Math.log(parseFloat(base));
 };
