@@ -38,17 +38,13 @@ module.exports.bigSig = function(arr){
 // Maximum value:
 // Find the greatest value in the array
 module.exports.max = function(arr){
-  return arr.reduce(function(a, b){
-    return Math.max(a, b);
-  });
+  return Math.max.apply(null, arr);
 };
 
 // Minimum value:
 // Find the least value in the array
 module.exports.min = function(arr){
-  return arr.reduce(function(a, b){
-    return Math.min(a, b);
-  });
+  return Math.min.apply(null, arr);
 };
 
 // Mean:
