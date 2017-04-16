@@ -31,4 +31,4 @@ Copyright (c) 2016-2017 Gerald Nash.
 Built using Algebrite and [metadelta-solver](https://github.com/metadelta/metadelta/tree/master/packages/solver)
 Licensed under the MIT license.  
 
-Like metadelta? [Donate Bitcoin](https://coinbase.com/aunyks) to support development!
+Like metadelta? [Donate Bitcoin](http://www.aunyks.com/bitcoin) to support development!
