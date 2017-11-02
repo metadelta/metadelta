@@ -37,7 +37,7 @@ module.exports.mean = function(arr){
 // Find the arithmetic median,
 // or the middle value of the array
 module.exports.median = function(arr){
-  var arr = sorting.getOrderedList(arr);
+  var arr = sorting.getPartiallySortedList(arr);
 
   if(arr.length % 2 === 0){
     var leftMidpoint = arr[Math.floor(arr.length / 2 - 1)];

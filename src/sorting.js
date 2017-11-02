@@ -1,7 +1,8 @@
-// Returns the ordered list
-module.exports.getOrderedList = function(items) {
-  var len = items.length;     // number of items in the array
-  return sort(items, 0, len-1);
+// Returns partially sorted list
+module.exports.getPartiallySortedList = function(items) {
+  // Only half of the list is enough
+  var len = items.length / 2;
+  return sort(items, 0, len);
 }
 
 /*
@@ -12,7 +13,7 @@ function sort(items, start, end) {
   if (start < end) {
 
     // This is where we switch to InsertionSort
-    if ((end - start) < 9) {
+    if ((end - start) <= 9) {
       insertionSort(items, start, end);
 
     // Here we switch to QuickSort  
