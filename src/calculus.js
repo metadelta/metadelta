@@ -56,8 +56,8 @@ module.exports.areaUnder = function(expression, data){
   var a = data.start;
   var b = data.finish;
   var F = module.exports.integrate(expression);
-  var Fofa = parseFloat(algebra.plug(F, { symbol: 'x', val: a}));
-  var Fofb = parseFloat(algebra.plug(F, { symbol: 'x', val: b}));
+  var Fofa = parseFloat(eval(algebra.plug(F, { symbol: 'x', val: a})));
+  var Fofb = parseFloat(eval(algebra.plug(F, { symbol: 'x', val: b})));
 
   return Fofb - Fofa;
 };
