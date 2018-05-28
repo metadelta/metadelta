@@ -13,7 +13,7 @@ Doing advanced math with Javascript takes an exceptional amount of time and know
 ### How do I get started?
 To add Metadelta to your Node.js project, simply run the following line in your project's root directory.
 ```
-npm install --save git+https://git@github.com/metadelta/metadelta.git
+npm install --save git+https://github.com/metadelta/metadelta.git
 ```
 That's it! Now you can begin implementing Metadelta's powerful functionality in your project.
 
