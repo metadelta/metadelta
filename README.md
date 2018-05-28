@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/aunyks/metadelta-js.svg?branch=master)](https://travis-ci.org/aunyks/metadelta-js)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)  
-[![Metadelta Logo](http://www.metadelta.pw/assets/metadelta-logo-transparent.png)](http://www.metadelta.pw/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 # metadelta
 **A small library for advanced math.**  
@@ -14,13 +13,7 @@ Doing advanced math with Javascript takes an exceptional amount of time and know
 ### How do I get started?
 To add Metadelta to your Node.js project, simply run the following line in your project's root directory.
 ```
-npm install --save @metadelta/core
-```
-
-To add Metadelta to your web app / project, add the following script tag to your source.  
-You can call Metadelta's functions from the global *metadelta* object.
-```
-<script src="https://mdlt.surge.sh/delta.js"></script>
+npm install --save git+https://git@github.com/metadelta/metadelta.git
 ```
 That's it! Now you can begin implementing Metadelta's powerful functionality in your project.
 
